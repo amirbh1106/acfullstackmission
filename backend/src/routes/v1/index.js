@@ -1,12 +1,12 @@
 const express = require('express');
-const todosroute = require('./todos.route');
+const get_todos = require('../../controllers/todoscontroller');
 
 const router = express.Router();
 
 const defaultRoutes = [
     {
         path: '/todos',
-        route: todosroute,
+        route: get_todos,
     },
 ];
 
