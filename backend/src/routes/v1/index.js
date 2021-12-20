@@ -1,12 +1,12 @@
 const express = require('express');
-const imagesRoute = require('./images.route');
+const todosroute = require('./todos.route');
 
 const router = express.Router();
 
 const defaultRoutes = [
     {
-        path: '/images',
-        route: imagesRoute,
+        path: '/todos',
+        route: todosroute,
     },
 ];
 
