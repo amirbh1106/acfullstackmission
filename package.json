@@ -1,0 +1,20 @@
+{
+  "name": "acfullstackmission",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "devb": " cd backend && npm start dev ",
+    "devf": "cd frontend/my-app && npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amirbh1106/acfullstackmission.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amirbh1106/acfullstackmission/issues"
+  },
+  "homepage": "https://github.com/amirbh1106/acfullstackmission#readme"
+}
