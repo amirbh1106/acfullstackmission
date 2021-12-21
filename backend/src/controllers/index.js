@@ -1,1 +1,1 @@
-module.exports.get_todos = require('./todoscontroller');
+module.exports.todoscontroller = require('./todoscontroller');
